@@ -1,7 +1,8 @@
-baseURL: "https://examplesite.com/"
-title: ExampleSite
+baseURL: "http://examplesite.com/"
+title: whyLFX
 paginate: 5
 theme: PaperMod
+languageCode: en-us
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -48,12 +49,10 @@ params:
     favicon: "<link / abs url>"
     favicon16x16: "<link / abs url>"
     favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
     safari_pinned_tab: "<link / abs url>"
 
   label:
     text: "Home"
-    icon: /apple-touch-icon.png
     iconHeight: 35
 
   # profile-mode
