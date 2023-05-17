@@ -1,5 +1,5 @@
 ---
-title: "FirstBlog"
+title: "Why LFX"
 date: 2023-05-16T17:21:04+05:30
 draft: false
 ---

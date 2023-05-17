@@ -1,4 +1,4 @@
-baseURL: "http://examplesite.com/"
+baseURL: "http://1shubham7.netlify.app/"
 title: whyLFX
 paginate: 5
 theme: PaperMod
@@ -17,7 +17,7 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
+  title: Why LFX
   description: "ExampleSite description"
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
@@ -72,8 +72,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "Hi there, This is Shubham Singh from India. \U0001F44B"
+    Content: I am an open-source enthusiast, Web developer, Andriod developer, first year undergrad (Computer Science Engg.). I also have decent knowledge of DevOps and I wish to learn it further. I am applying for LFX Mentorship (Term-2) under the CNCF Notary Project. I have made this website in Hugo in order to show my passion for LFX and the Project.
 
   socialIcons:
     - name: twitter
