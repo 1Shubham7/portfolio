@@ -18,7 +18,7 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Why LFX
-  description: "ExampleSite description"
+  description: "Why Do I wish to participate in LFX Mentorship."
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
   # author: ["Me", "You"] # multiple authors
@@ -73,7 +73,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there, This is Shubham Singh from India. \U0001F44B"
-    Content: I am an open-source enthusiast, Web developer, Andriod developer, first year undergrad (Computer Science Engg.). I also have decent knowledge of DevOps and I wish to learn it further. I am applying for LFX Mentorship (Term-2) under the CNCF Notary Project. I have made this website in Hugo in order to show my passion for LFX and the Project.
+    Content: I am an open-source enthusiast, Web developer, Andriod developer, first year undergrad (Computer Science Engg.). I also have decent knowledge of DevOps and I wish to learn it further. I am applying for LFX Mentorship (Term-2) under the CNCF Notary Project. I have made this website in Hugo in order to show my passion for LFX and the Notary Project.
 
   socialIcons:
     - name: LinkedIn
