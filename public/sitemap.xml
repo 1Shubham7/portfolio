@@ -2,17 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://examplesite.com/posts/firstblog/</loc>
+    <loc>http://1shubham7.netlify.app/posts/</loc>
     <lastmod>2023-05-16T17:21:04+05:30</lastmod>
   </url><url>
-    <loc>http://examplesite.com/posts/</loc>
+    <loc>http://1shubham7.netlify.app/posts/secondblog/</loc>
     <lastmod>2023-05-16T17:21:04+05:30</lastmod>
   </url><url>
-    <loc>http://examplesite.com/</loc>
+    <loc>http://1shubham7.netlify.app/posts/firstblog/</loc>
     <lastmod>2023-05-16T17:21:04+05:30</lastmod>
   </url><url>
-    <loc>http://examplesite.com/categories/</loc>
+    <loc>http://1shubham7.netlify.app/</loc>
+    <lastmod>2023-05-16T17:21:04+05:30</lastmod>
   </url><url>
-    <loc>http://examplesite.com/tags/</loc>
+    <loc>http://1shubham7.netlify.app/categories/</loc>
+  </url><url>
+    <loc>http://1shubham7.netlify.app/tags/</loc>
   </url>
 </urlset>

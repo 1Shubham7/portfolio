@@ -2,24 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on whyLFX</title>
-    <link>http://examplesite.com/posts/</link>
+    <link>http://1shubham7.netlify.app/posts/</link>
     <description>Recent content in Posts on whyLFX</description>
     <image>
       <title>whyLFX</title>
-      <url>http://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://1shubham7.netlify.app/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://1shubham7.netlify.app/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 May 2023 17:21:04 +0530</lastBuildDate><atom:link href="http://examplesite.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 May 2023 17:21:04 +0530</lastBuildDate><atom:link href="http://1shubham7.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>FirstBlog</title>
-      <link>http://examplesite.com/posts/firstblog/</link>
+      <title>Technologies I learned for Notary Project</title>
+      <link>http://1shubham7.netlify.app/posts/secondblog/</link>
       <pubDate>Tue, 16 May 2023 17:21:04 +0530</pubDate>
       
-      <guid>http://examplesite.com/posts/firstblog/</guid>
-      <description>Introduction This is bold text, and this is emphasized text.
-Visit the Hugo website!</description>
+      <guid>http://1shubham7.netlify.app/posts/secondblog/</guid>
+      <description>Technologies I learned for LFX I saw the notary project in the LFX mentorship website and I knew most of the technologies needed for the project, hence I decided to participate in LFX through the notary project. after I forked the project and cloned it to my machine, I realized most of the website is coded in something similar to HTML. I already had an experience with React and Django, so I could understand most of the codebase.</description>
+    </item>
+    
+    <item>
+      <title>Why LFX</title>
+      <link>http://1shubham7.netlify.app/posts/firstblog/</link>
+      <pubDate>Tue, 16 May 2023 17:21:04 +0530</pubDate>
+      
+      <guid>http://1shubham7.netlify.app/posts/firstblog/</guid>
+      <description>Why LFX I am very passionate about open-source and LFX, that is the reason why immediately once the project was announced, I started learning Golang(I thought we need Golang in order to work with Hugo) and then I learned Hugo, SCSS, Figma and I made a few projects in these technologies so to become proficient in these technologies in order to contribute to the project better. Now I am confident enough to contribute to the project since I have learned Hugo and Figma.</description>
     </item>
     
   </channel>

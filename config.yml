@@ -1,5 +1,5 @@
 baseURL: "http://1shubham7.netlify.app/"
-title: whyLFX
+title: Shubham Singh
 paginate: 5
 theme: PaperMod
 languageCode: en-us
@@ -16,32 +16,40 @@ minify:
   minifyOutput: true
 
 params:
+
+  #theme
+  showtoc: true
+  tocOpen: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  hidemeta: false
+
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Why LFX
-  description: "Why Do I wish to participate in LFX Mentorship."
-  keywords: [Blog, Portfolio, PaperMod]
-  author: Me
-  # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
-  disableThemeToggle: false
+
+  # Introduction
+
+  profile-mode:
+  
+    title: Shubham Singh
+    description: "Why Do I wish to participate in LFX Mentorship."
+    keywords: [Shubham, Shubham Singh Mahar, Shubham Singh]
+    author: Me
+    # author: ["Me", "You"] # multiple authors
+    images: ["<link or path of image for opengraph, twitter-cards>"]
+    DateFormat: "January 2, 2006"
+    defaultTheme: auto # dark, light
+    disableThemeToggle: false
 
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
-  hidemeta: false
+  comments: true
   hideSummary: false
-  showtoc: false
-  tocopen: false
 
   assets:
     # disableHLJS: true # to disable highlight.js
@@ -80,8 +88,10 @@ params:
       url: "https://www.linkedin.com/in/shubham-singh-mahar-5a002b20b/"
     - name: Hashnode
       url: "https://1shubham7.hashnode.dev/"
-    - name: github
+    - name: Github
       url: "https://github.com/1shubham7"
+    - name: Twitter
+      url: "https://twitter/1shubham7"
 
   analytics:
     google:
@@ -113,18 +123,30 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
+    - identifier: Me
+      name: Me
+      url: /
       weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
+    - identifier: blog
+      name: Blog
+      url: /blog
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
+    - identifier: projects
+      name: Projects
+      url: /projects
       weight: 30
+    - identifier: experience
+      name: Experience
+      url: /experience
+      weight: 40
+    - identifier: search
+      name: Search
+      url: /search
+      weight: 50
+    - identifier: GitHub
+      name: github.com
+      url: https://github.com/1shubham7
+      weight: 60
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
