@@ -1,5 +1,5 @@
 baseURL: "http://1shubham7.netlify.app/"
-title: whyLFX
+title: Shubham Singh
 paginate: 5
 theme: PaperMod
 languageCode: en-us
@@ -17,7 +17,7 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Why LFX
+  title: Shubham Singh
   description: "Why Do I wish to participate in LFX Mentorship."
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
@@ -80,8 +80,10 @@ params:
       url: "https://www.linkedin.com/in/shubham-singh-mahar-5a002b20b/"
     - name: Hashnode
       url: "https://1shubham7.hashnode.dev/"
-    - name: github
+    - name: Github
       url: "https://github.com/1shubham7"
+    - name: Twitter
+      url: "https://twitter/1shubham7"
 
   analytics:
     google:
