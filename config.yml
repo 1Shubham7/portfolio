@@ -41,19 +41,12 @@ params:
          url: "https://twitter.com/1shubham7"
 
   # List view
+  hideDescriptionInList: false
 
-
-
-
-
-    # description: "Why Do I wish to participate in LFX Mentorship."
-    # keywords: [Shubham, Shubham Singh Mahar, Shubham Singh]
-    # author: Me
-    # # author: ["Me", "You"] # multiple authors
-    # images: ["<link or path of image for opengraph, twitter-cards>"]
-    # DateFormat: "January 2, 2006"
-    # defaultTheme: auto # dark, light
-    # disableThemeToggle: false
+  # cover image for posts
+  cover:
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
 
   ShowReadingTime: true
   ShowShareButtons: true
@@ -78,20 +71,6 @@ params:
     text: "Home"
     iconHeight: 35
 
-  # profile-mode
-  # profileMode:
-  #   enabled: false # needs to be explicitly set
-  #   title: ExampleSite
-  #   subtitle: "This is subtitle"
-  #   imageUrl: "<img location>"
-  #   imageWidth: 120
-  #   imageHeight: 120
-  #   imageTitle: my image
-  #   buttons:
-  #     - name: Posts
-  #       url: posts
-  #     - name: Tags
-  #       url: tags
 
   # home-info mode
   homeInfoParams:
@@ -115,11 +94,6 @@ params:
       SiteVerificationTag: "XYZabc"
     yandex:
       SiteVerificationTag: "XYZabc"
-
-  cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
 
   editPost:
     URL: "https://github.com/<path_to_repo>/content"
