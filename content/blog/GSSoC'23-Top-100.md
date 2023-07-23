@@ -6,7 +6,8 @@ draft: false
 tags: ["GSSoC'23", "Open-Source Program"]
 weight: 101
 cover:
-    image: "/blog/aws-dva-certification/cover.jpg"
+    image: "/blog/gssoc.png"
 ---
 
 # Introduction
+
