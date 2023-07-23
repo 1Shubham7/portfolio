@@ -29,16 +29,31 @@ params:
   # Introduction
 
   profile-mode:
-  
-    title: Shubham Singh
-    description: "Why Do I wish to participate in LFX Mentorship."
-    keywords: [Shubham, Shubham Singh Mahar, Shubham Singh]
-    author: Me
-    # author: ["Me", "You"] # multiple authors
-    images: ["<link or path of image for opengraph, twitter-cards>"]
-    DateFormat: "January 2, 2006"
-    defaultTheme: auto # dark, light
-    disableThemeToggle: false
+    enabled: true
+    title: "Shubham Singh"
+    subtitle: Hi there 👋! This is Shubham from India. I am First year undergrad (Computer Science Engineering) from a tier-3 college, I am an open-source enthusiast. I am a web developer, Android developer, and right now I am learning DevOps. When not coding, you will find me reading books and listening podcasts around history, geopolitics, tech and entrepreneurship.
+    imageUrl: "home/me.jpg"
+    imageWidth: 220
+    imageHeight: 220
+    imageAlt: "Shubham Singh"
+    buttons:
+       - name: "Follow me on Twitter"
+         url: "https://twitter.com/1shubham7"
+
+  # List view
+
+
+
+
+
+    # description: "Why Do I wish to participate in LFX Mentorship."
+    # keywords: [Shubham, Shubham Singh Mahar, Shubham Singh]
+    # author: Me
+    # # author: ["Me", "You"] # multiple authors
+    # images: ["<link or path of image for opengraph, twitter-cards>"]
+    # DateFormat: "January 2, 2006"
+    # defaultTheme: auto # dark, light
+    # disableThemeToggle: false
 
   ShowReadingTime: true
   ShowShareButtons: true
@@ -64,19 +79,19 @@ params:
     iconHeight: 35
 
   # profile-mode
-  profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
+  # profileMode:
+  #   enabled: false # needs to be explicitly set
+  #   title: ExampleSite
+  #   subtitle: "This is subtitle"
+  #   imageUrl: "<img location>"
+  #   imageWidth: 120
+  #   imageHeight: 120
+  #   imageTitle: my image
+  #   buttons:
+  #     - name: Posts
+  #       url: posts
+  #     - name: Tags
+  #       url: tags
 
   # home-info mode
   homeInfoParams:
