@@ -18,17 +18,17 @@ params:
 
   # Introduction
 
-  profile-mode:
+  profileMode:
     enabled: true
     title: "Shubham Singh"
-    subtitle: Hi there 👋! This is Shubham. I am First year undergrad (Computer Science Engineering) from a tier-3 college, I am an open-source enthusiast. I am a web developer, Android developer, and right now I am learning DevOps. When not coding, you will find me reading books and listening podcasts around history, geopolitics, tech and entrepreneurship.
+    subtitle: Hi there 👋! This is Shubham. I am First year undergrad (Computer Science Engineering), I am an open-source enthusiast. I am a web developer, Android developer, and right now I am learning DevOps. When not coding, you will find me reading books and listening podcasts around history, geopolitics, tech and entrepreneurship.
     imageUrl: "home/me.jpg"
     imageWidth: 220
     imageHeight: 220
     imageAlt: "Shubham Singh"
     buttons:
-       - name: "Follow me on Twitter"
-         url: "https://twitter.com/1shubham7"
+      - name: "Follow me on Twitter"
+        url: "https://twitter.com/1shubham7"
 
   # List view
   hideDescriptionInList: false
