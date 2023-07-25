@@ -1,19 +1,9 @@
 baseURL: "http://1shubham7.netlify.app/"
 title: Shubham Singh
-paginate: 5
 theme: PaperMod
 languageCode: en-us
 
-enableRobotsTXT: true
-buildDrafts: false
-buildFuture: false
-buildExpired: false
-
 googleAnalytics: UA-123-45
-
-minify:
-  disableXML: true
-  minifyOutput: true
 
 params:
 
@@ -28,60 +18,37 @@ params:
 
   # Introduction
 
-  profile-mode:
-  
-    title: Shubham Singh
-    description: "Why Do I wish to participate in LFX Mentorship."
-    keywords: [Shubham, Shubham Singh Mahar, Shubham Singh]
-    author: Me
-    # author: ["Me", "You"] # multiple authors
-    images: ["<link or path of image for opengraph, twitter-cards>"]
-    DateFormat: "January 2, 2006"
-    defaultTheme: auto # dark, light
-    disableThemeToggle: false
-
-  ShowReadingTime: true
-  ShowShareButtons: true
-  ShowPostNavLinks: true
-  ShowWordCount: true
-  ShowRssButtonInSectionTermList: true
-  UseHugoToc: true
-  disableSpecial1stPost: false
-  disableScrollToTop: false
-  comments: true
-  hideSummary: false
-
-  assets:
-    # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
-
-  label:
-    text: "Home"
-    iconHeight: 35
-
-  # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
+    enabled: true
+    title: "Shubham Singh"
+    subtitle: Hi there 👋! This is Shubham. I am First year undergrad (Computer Science Engineering), I am an open-source enthusiast. I am a web developer, Android developer, and right now I am learning DevOps. When not coding, you will find me reading books and listening podcasts around history, geopolitics, tech and entrepreneurship.
+    imageUrl: "home/me.jpg"
+    imageWidth: 220
+    imageHeight: 220
+    imageAlt: "Shubham Singh"
     buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
+      - name: "Follow me on Twitter"
+        url: "https://twitter.com/1shubham7"
 
-  # home-info mode
-  homeInfoParams:
-    Title: "Hi there, This is Shubham Singh from India. \U0001F44B"
-    Content: I am an open-source enthusiast, Web developer, Andriod developer, first year undergrad (Computer Science Engg.). I also have decent knowledge of DevOps and I wish to learn it further. I am applying for LFX Mentorship (Term-2) under the CNCF Notary Project. I have made this website in Hugo in order to show my passion for LFX and the Notary Project.
+  # List view
+  hideDescriptionInList: false
+
+  # cover image for posts
+  cover:
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  # ShowReadingTime: true
+  # ShowShareButtons: true
+  # ShowPostNavLinks: true
+  # ShowWordCount: true
+  # ShowRssButtonInSectionTermList: true
+  # UseHugoToc: true
+  # disableSpecial1stPost: false
+  # disableScrollToTop: false
+  # comments: true
+  # hideSummary: false
+
 
   socialIcons:
     - name: LinkedIn
@@ -93,24 +60,6 @@ params:
     - name: Twitter
       url: "https://twitter/1shubham7"
 
-  analytics:
-    google:
-      SiteVerificationTag: "XYZabc"
-    bing:
-      SiteVerificationTag: "XYZabc"
-    yandex:
-      SiteVerificationTag: "XYZabc"
-
-  cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
-
-  editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
-
   # for search
   # https://fusejs.io/api/options.html
   fuseOpts:
@@ -121,6 +70,18 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 menu:
   main:
     - identifier: Me
