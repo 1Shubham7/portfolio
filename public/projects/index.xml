@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Projects on Shubham Singh</title>
+    <link>http://1shubham7.netlify.app/projects/</link>
+    <description>Recent content in Projects on Shubham Singh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://1shubham7.netlify.app/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://1shubham7.netlify.app/projects/code-buggy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://1shubham7.netlify.app/projects/code-buggy/</guid>
+      <description> Description </description>
+    </item>
+    
+  </channel>
+</rss>

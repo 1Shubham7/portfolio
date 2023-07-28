@@ -2,19 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://1shubham7.netlify.app/posts/</loc>
-    <lastmod>2023-05-16T17:21:04+05:30</lastmod>
+    <loc>http://1shubham7.netlify.app/blog/gssoc23-top-100/</loc>
   </url><url>
-    <loc>http://1shubham7.netlify.app/posts/secondblog/</loc>
-    <lastmod>2023-05-16T17:21:04+05:30</lastmod>
+    <loc>http://1shubham7.netlify.app/projects/code-buggy/</loc>
   </url><url>
-    <loc>http://1shubham7.netlify.app/posts/firstblog/</loc>
-    <lastmod>2023-05-16T17:21:04+05:30</lastmod>
+    <loc>http://1shubham7.netlify.app/skills/skills/</loc>
   </url><url>
-    <loc>http://1shubham7.netlify.app/</loc>
-    <lastmod>2023-05-16T17:21:04+05:30</lastmod>
+    <loc>http://1shubham7.netlify.app/blog/</loc>
   </url><url>
     <loc>http://1shubham7.netlify.app/categories/</loc>
+  </url><url>
+    <loc>http://1shubham7.netlify.app/tags/gssoc23/</loc>
+  </url><url>
+    <loc>http://1shubham7.netlify.app/tags/open-source-programs/</loc>
+  </url><url>
+    <loc>http://1shubham7.netlify.app/projects/</loc>
+  </url><url>
+    <loc>http://1shubham7.netlify.app/</loc>
+  </url><url>
+    <loc>http://1shubham7.netlify.app/skills/</loc>
   </url><url>
     <loc>http://1shubham7.netlify.app/tags/</loc>
   </url>
