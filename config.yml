@@ -96,20 +96,25 @@ menu:
       name: Projects
       url: /projects
       weight: 30
+    - identifier: skills
+      name: Skills
+      url: /skills
+      weight: 40
     - identifier: experience
       name: Experience
       url: /experience
-      weight: 40
+      weight: 50
     - identifier: search
       name: Search
       url: /search
-      weight: 50
+      weight: 60
     - identifier: GitHub
       name: github.com
       url: https://github.com/1shubham7
-      weight: 60
+      weight: 70
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
+
 markup:
   highlight:
     noClasses: false
